@@ -1,0 +1,15 @@
+D:\Роман\Geek Univercity\snake\Snake\Snake\bin\Debug\net6.0\Snake.exe
+D:\Роман\Geek Univercity\snake\Snake\Snake\bin\Debug\net6.0\Snake.deps.json
+D:\Роман\Geek Univercity\snake\Snake\Snake\bin\Debug\net6.0\Snake.runtimeconfig.json
+D:\Роман\Geek Univercity\snake\Snake\Snake\bin\Debug\net6.0\Snake.dll
+D:\Роман\Geek Univercity\snake\Snake\Snake\bin\Debug\net6.0\Snake.pdb
+D:\Роман\Geek Univercity\snake\Snake\Snake\obj\Debug\net6.0\Snake.csproj.AssemblyReference.cache
+D:\Роман\Geek Univercity\snake\Snake\Snake\obj\Debug\net6.0\Snake.GeneratedMSBuildEditorConfig.editorconfig
+D:\Роман\Geek Univercity\snake\Snake\Snake\obj\Debug\net6.0\Snake.AssemblyInfoInputs.cache
+D:\Роман\Geek Univercity\snake\Snake\Snake\obj\Debug\net6.0\Snake.AssemblyInfo.cs
+D:\Роман\Geek Univercity\snake\Snake\Snake\obj\Debug\net6.0\Snake.csproj.CoreCompileInputs.cache
+D:\Роман\Geek Univercity\snake\Snake\Snake\obj\Debug\net6.0\Snake.dll
+D:\Роман\Geek Univercity\snake\Snake\Snake\obj\Debug\net6.0\refint\Snake.dll
+D:\Роман\Geek Univercity\snake\Snake\Snake\obj\Debug\net6.0\Snake.pdb
+D:\Роман\Geek Univercity\snake\Snake\Snake\obj\Debug\net6.0\Snake.genruntimeconfig.cache
+D:\Роман\Geek Univercity\snake\Snake\Snake\obj\Debug\net6.0\ref\Snake.dll
