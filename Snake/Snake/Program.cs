@@ -1,6 +1,3 @@
-<<<<<<< Updated upstream
-﻿Console.WriteLine("Hello, World!");
-=======
 ﻿using System.Drawing;
 
 namespace Snake
@@ -9,19 +6,12 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            Point p1 = new Point();
-            p1.y = 1;
-            p1.x = 1;
-            p1.sym = '*';
+            Point p1 = new Point(2, 3, '*');
             p1.Draw();
-            Point p2 = new Point();
-            p2.y = 5;
-            p2.x = 5;
-            p2.sym = '#';
+            Point p2 = new Point(5, 6, '#');
             p2.Draw();
         }
     }
 }
 
 
->>>>>>> Stashed changes
