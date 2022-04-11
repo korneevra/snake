@@ -18,11 +18,24 @@ namespace Snake
             rightlLine.Draw();
 
             Point p = new(5, 5, '*');
-            Snake snake = new Snake(p, 4, Direction.LEFT);
+            Snake snake = new Snake(p, 4, Direction.RIGHT);
             snake.Draw();
-            Console.Read();
+
+            while(true)
+            {
+                if (Console.KeyAvailable)
+                {
+                    ConsoleKeyInfo key = Console.ReadKey();
+                    snake.HandleKay(key.Key);
+                }
+                Thread.Sleep(100);
+                snake.Move();
+            }
+
             
-            
+
+
+            Console.Read(); 
 
         }
     }
