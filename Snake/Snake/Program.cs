@@ -43,7 +43,7 @@ namespace Snake
                 }
             }
 
-            
+            Console.ForegroundColor = ConsoleColor.Red;
             Console.SetCursorPosition(55, 14);
             Console.WriteLine("GAME OWER!!!");
             Console.Read(); 
