@@ -6,18 +6,11 @@ namespace Snake
     {
         static void Main(string[] args)
         {
-            int CONSOLE_HEIGHT = 30;
-            int CONSOLE_WIDTH = 120;
-            Console.SetBufferSize(CONSOLE_WIDTH, CONSOLE_HEIGHT);
-
-            HorizontalLine uplLine = new HorizontalLine(0, CONSOLE_WIDTH - 1, 0, '+');
-            HorizontalLine downlLine = new HorizontalLine(0, CONSOLE_WIDTH - 1, CONSOLE_HEIGHT - 1, '+');
-            VerticalLine leftlLine = new VerticalLine(0, 0, CONSOLE_HEIGHT - 1, '+');
-            VerticalLine rightlLine = new VerticalLine(CONSOLE_WIDTH - 1, 0, CONSOLE_HEIGHT - 1, '+');
-            uplLine.Draw();
-            downlLine.Draw();
-            leftlLine.Draw();
-            rightlLine.Draw();
+            int FIELD_HEIGHT = 30;
+            int FIELD_WIDTH = 120;
+            Console.SetBufferSize(FIELD_WIDTH, FIELD_HEIGHT);
+            Walls walls = new(FIELD_WIDTH, FIELD_HEIGHT);
+            walls.Draw();
 
             Point p = new(5, 5, '*');
             Snake snake = new Snake(p, 4, Direction.RIGHT);
@@ -29,6 +22,11 @@ namespace Snake
 
             while(true)
             {
+                if(walls.IsHit(snake) || snake.IsHitTail())
+                {
+                    break;
+                }
+
                 if (snake.Eat(food))
                 {
                     food = foodCreator.CreateFood();
@@ -46,8 +44,8 @@ namespace Snake
             }
 
             
-
-
+            Console.SetCursorPosition(55, 14);
+            Console.WriteLine("GAME OWER!!!");
             Console.Read(); 
 
         }
